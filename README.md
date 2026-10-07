@@ -1,7 +1,5 @@
 # SNN-denoising
 
-# Layer-wise Excitatory-Inhibitory Spiking Neural Networks for Structure-Aware Image Denoising
-
 This repository provides the official implementation of **Layer-wise Excitatory-Inhibitory Spiking Neural Networks for Structure-Aware Image Denoising**.
 
 The proposed framework combines the spatial feature extraction capability of a **ResNet-18 backbone** with the temporal processing characteristics of **Spiking Neural Networks (SNNs)**. Excitatory and inhibitory spiking neurons are incorporated at different locations in the network to investigate their effects on image restoration performance.
