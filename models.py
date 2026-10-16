@@ -64,7 +64,7 @@ class DnCNN(nn.Module):
 
             nn.Conv2d(features, features, kernel_size, padding=padding, bias=False),  # 9
             snn.Leaky(beta=beta, spike_grad=spike_grad),
-            # InhibitoryNeuron(inhibition_strength=0.5),
+            InhibitoryNeuron(inhibition_strength=0.5),
             nn.BatchNorm2d(features),
             nn.ReLU(inplace=True),
 
